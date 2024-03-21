@@ -13,15 +13,8 @@
 <remove-project name="LineageOS/android_hardware_qcom_display" />
 <remove-project name="LineageOS/android_hardware_qcom_audio" />
 <remove-project name="LineageOS/android_hardware_qcom_media" />
-<remove-project name="crdroidandroid/android_build_soong" />
 <remove-project name="crdroidandroid/android_frameworks_av" />
 <remove-project name="crdroidandroid/android_frameworks_base" />
-
-
-  <project path="build/soong" name="sm8250-stuffs/android_build_soong-new" remote="git" revision="14.0" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
 
 <!-- Device Trees -->
 <project path="device/xiaomi/alioth" name="sm8250-stuffs/device_xiaomi_alioth" remote="git" revision="los" clone-depth="1" />
