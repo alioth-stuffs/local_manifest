@@ -15,6 +15,10 @@
 <remove-project name="LineageOS/android_hardware_qcom_media" />
 <remove-project name="android_frameworks_av" />
 <remove-project name="android_device_qcom_sepolicy" />
+<remove-project name="LineageOS/android_external_libncurses" />
+<remove-project name="LineageOS/android_external_bash" />
+<remove-project name="LineageOS/android_system_logging" />
+<remove-project name="LineageOS/android_external_vim" />
 
 <!-- Device Trees -->
 <project path="device/xiaomi/alioth" name="sm8250-stuffs/device_xiaomi_alioth" remote="git" revision="awaken" clone-depth="1" />
@@ -35,4 +39,5 @@
 <project path="frameworks/native" name="sm8250-alt/android_frameworks_native" remote="git" revision="ursa" clone-depth="1" />
 <project path="frameworks/av" name="sm8250-alt/android_frameworks_av" remote="git" revision="ursa" clone-depth="1" />
 <project path="vendor/xiaomi/camera" name="nhAsif/vendor_xiaomi_camera" remote="glab" revision="aosp-14" clone-depth="1" />
+<project path="system/logging" name="PixelExperience/system_logging" remote="git" revision="fourteen" clone-depth="1" />
 </manifest>
