@@ -12,6 +12,7 @@
 <remove-project name="android_hardware_qcom_audio" />
 <remove-project name="android_hardware_qcom_media" />
 <remove-project name="frameworks_av" />
+<remove-project name="hardware_xiaomi" />
 
 <!-- Device Trees -->
 <project path="device/xiaomi/alioth" name="sm8250-stuffs/device_xiaomi_alioth" remote="git" revision="ps" clone-depth="1" />
