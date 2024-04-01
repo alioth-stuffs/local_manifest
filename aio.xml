@@ -5,13 +5,13 @@
 <remote name="bitbucket" fetch="https://bitbucket.org" />
 
 <!-- Removed projects -->
-<remove-project name="LineageOS/android_packages_resources_devicesettings" />
-<remove-project name="crdroidandroid/android_frameworks_native" />
+<remove-project name="packages_resources_devicesettings" />
+<remove-project name="frameworks_native" />
 <remove-project name="platform/system/libhwbinder" />
-<remove-project name="LineageOS/android_hardware_qcom_display" />
-<remove-project name="LineageOS/android_hardware_qcom_audio" />
-<remove-project name="LineageOS/android_hardware_qcom_media" />
-<remove-project name="crdroidandroid/android_frameworks_av" />
+<remove-project name="android_hardware_qcom_display" />
+<remove-project name="android_hardware_qcom_audio" />
+<remove-project name="android_hardware_qcom_media" />
+<remove-project name="frameworks_av" />
 
 <!-- Device Trees -->
 <project path="device/xiaomi/alioth" name="sm8250-stuffs/device_xiaomi_alioth" remote="git" revision="los" clone-depth="1" />
@@ -26,7 +26,6 @@
 <project path="packages/resources/devicesettings" name="sm8250-stuffs/packages_resources_devicesettings" remote="git" revision="los" />
 <project path="device/custom/sepolicy" name="VoidUI-Andromeda/device_custom_sepolicy" remote="git" revision="aosp-14" />
 <project path="system/libhwbinder" name="Evolution-X/system_libhwbinder" remote="git" revision="uqpr2" clone-depth="1" />
-<project path="vendor/gapps" name="sm8250/android_vendor_gapps" remote="bitbucket" revision="14.0" clone-depth="1" />
 <project path="frameworks/native" name="sm8250-alt/cr_frameworks_native" remote="git" revision="14.0" clone-depth="1" />
 <project path="frameworks/av" name="sm8250-alt/cr_frameworks_av" remote="git" revision="14.0" clone-depth="1" />
 <project path="vendor/xiaomi/camera" name="nhAsif/vendor_xiaomi_camera" remote="glab" revision="aosp-14" clone-depth="1" />
