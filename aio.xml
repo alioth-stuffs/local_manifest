@@ -12,6 +12,9 @@
 <remove-project name="LineageOS/android_hardware_qcom_audio" />
 <remove-project name="LineageOS/android_hardware_qcom_media" />
 <remove-project name="crdroidandroid/android_frameworks_av" />
+<remove-project name="crdroidandroid/android_vendor_crdroid" />
+<remove-project name="crdroidandroid/android_vendor_addons" />
+<remove-project name="crdroidandroid/android_packages_apps_crDroidSettings" />
 
 <!-- Device Trees -->
 <project path="device/xiaomi/alioth" name="PocoF3-trees/device_xiaomi_alioth" remote="git" revision="los" clone-depth="1" />
