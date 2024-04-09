@@ -20,7 +20,6 @@
 <project path="packages/resources/devicesettings" name="sm8250-stuffs/packages_resources_devicesettings" remote="git" revision="los" />
 <project path="system/libhwbinder" name="Evolution-X/system_libhwbinder" remote="git" revision="u" clone-depth="1" />
 <project path="vendor/gapps" name="projectmatrixx/android_vendor_gapps" remote="bitbucket" revision="14.0" clone-depth="1" />
-<project path="vendor/xiaomi/camera" name="johnmart19/vendor_xiaomi_camera" remote="glab" revision="aosp-14" clone-depth="1" />
 <project path="frameworks/native" name="sm8250-stuffs/cr_frameworks_native" remote="git" revision="14.0" clone-depth="1" />
 <project path="frameworks/av" name="sm8250-stuffs/cr_frameworks_av" remote="git" revision="14.0" clone-depth="1" />
 <project path="vendor/xiaomi/camera" name="nhAsif/vendor_xiaomi_camera" remote="glab" revision="aosp-14" clone-depth="1" />
