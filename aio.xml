@@ -7,8 +7,6 @@
 <!-- Removed projects -->
 <remove-project name="platform/system/libhwbinder" />
 <remove-project name="LineageOS/android_packages_resources_devicesettings" />
-<remove-project name="crdroidandroid/android_vendor_addons" />
-<remove-project name="crdroidandroid/android_packages_apps_crDroidSettings" />
 
 <!-- Device Trees -->
 <project path="device/xiaomi/alioth" name="sm8250-alt/device_xiaomi_alioth_new" remote="git" revision="los" clone-depth="1" />
@@ -20,6 +18,4 @@
 <project path="packages/resources/devicesettings" name="sm8250-stuffs/packages_resources_devicesettings" remote="git" revision="los" />
 <project path="system/libhwbinder" name="Evolution-X/system_libhwbinder" remote="git" revision="u" clone-depth="1" />
 <project path="vendor/gapps" name="projectmatrixx/android_vendor_gapps" remote="bitbucket" revision="14.0" clone-depth="1" />
-<project path="vendor/addons" name="PocoF3-trees/android_vendor_addons" remote="git" revision="14.0" clone-depth="1" />
-<project path="packages/apps/crDroidSettings" name="PocoF3-trees/android_packages_apps_crDroidSettings" remote="git" revision="14.0" clone-depth="1" />
 </manifest>
