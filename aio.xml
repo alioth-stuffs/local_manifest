@@ -21,5 +21,4 @@
 <project path="system/libhwbinder" name="Evolution-X/system_libhwbinder" remote="git" revision="u" clone-depth="1" />
 <project path="frameworks/native" name="sm8250-aosp/android_frameworks_native" remote="git" revision="ursa" clone-depth="1" />
 <project path="frameworks/av" name="sm8250-aosp/android_frameworks_av" remote="git" revision="ursa" clone-depth="1" />
-<project path="vendor/xiaomi/camera" name="nhAsif/vendor-xiaomi-camera-los" remote="glab" revision="aosp-14" clone-depth="1" />
 </manifest>
