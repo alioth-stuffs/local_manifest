@@ -2,7 +2,6 @@
 <manifest>
 <remote name="git" fetch="https://github.com" />
 <remote name="glab" fetch="https://gitlab.com" />
-<remote name="bitbucket" fetch="https://bitbucket.org" />
 
 <!-- Removed projects -->
 <remove-project name="LineageOS/android_packages_resources_devicesettings" />
