@@ -8,43 +8,19 @@
 <remove-project name="LineageOS/android_packages_resources_devicesettings" />
 <remove-project name="android_frameworks_native" />
 <remove-project name="platform/system/libhwbinder" />
-<remove-project name="LineageOS/android_device_qcom_sepolicy" />
-<remove-project name="LineageOS/android_device_qcom_sepolicy_vndr" />
-<remove-project name="LineageOS/android_hardware_qcom_display" />
-<remove-project name="LineageOS/android_hardware_qcom_audio" />
-<remove-project name="LineageOS/android_hardware_qcom_media" />
 <remove-project name="android_frameworks_av" />
-<remove-project name="android_device_qcom_sepolicy" />
-<remove-project name="LineageOS/android_external_libncurses" />
-<remove-project name="LineageOS/android_external_bash" />
-<remove-project name="LineageOS/android_system_logging" />
-<remove-project name="LineageOS/android_external_vim" />
-<remove-project name="LineageOS/android_external_nano" />
-<remove-project name="LineageOS/android_system_security" />
-<remove-project name="LineageOS/android_hardware_libhardware" />
-<remove-project name="LineageOS/android_development" />
+
 
 <!-- Device Trees -->
-<project path="device/xiaomi/alioth" name="sm8250-stuffs/device_xiaomi_alioth" remote="git" revision="awaken" clone-depth="1" />
-<project path="device/xiaomi/sm8250-common" name="sm8250-stuffs/device_xiaomi_sm8250-common-new" remote="git" revision="los" clone-depth="1" />
-<project path="vendor/xiaomi/alioth" name="sm8250-stuffs/vendor_xiaomi_alioth" remote="git" revision="los" clone-depth="1" />
-<project path="vendor/xiaomi/sm8250-common" name="sm8250-stuffs/vendor_xiaomi_sm8250-common" remote="git" revision="aosp-14" clone-depth="1" />
-<project path="kernel/xiaomi/sm8250" name="Project-Zephyrus/kernel_xiaomi_sm8250" remote="git" revision="aosp-14" clone-depth="1" />
-<project path="hardware/qcom-caf/sm8250/display" name="sm8250-stuffs/hardware_qcom-caf_sm8250_display" remote="git" revision="fourteen" clone-depth="1" />
-<project path="hardware/qcom-caf/sm8250/audio" name="sm8250-stuffs/hardware_qcom-caf_sm8250_audio" remote="git" revision="fourteen" clone-depth="1" />
-<project path="hardware/qcom-caf/sm8250/media" name="sm8250-stuffs/hardware_qcom-caf_sm8250_media" remote="git" revision="fourteen" clone-depth="1" />
-<project path="hardware/xiaomi" name="sm8250-stuffs/hardware_xiaomi" remote="git" revision="aosp-14" />
+<project path="device/xiaomi/alioth" name="sm8250-aosp/device_xiaomi_alioth_new" remote="git" revision="awaken" clone-depth="1" />
+<project path="device/xiaomi/sm8250-common" name="sm8250-aosp/device_xiaomi_sm8250-common_new" remote="git" revision="awaken" clone-depth="1" />
+<project path="vendor/xiaomi/alioth" name="PocoF3Releases/vendor_xiaomi_alioth" remote="git" revision="aosp-14" clone-depth="1" />
+<project path="vendor/xiaomi/sm8250-common" name="PocoF3Releases/vendor_xiaomi_sm8250-common" remote="git" revision="aosp-14" clone-depth="1" />
+<project path="kernel/xiaomi/sm8250" name="PocoF3Releases/kernel_xiaomi_sm8250" remote="git" revision="aosp-14" clone-depth="1" />
+<project path="hardware/xiaomi" name="Evolution-X/hardware_xiaomi" remote="git" revision="udc" />
 <project path="packages/resources/devicesettings" name="sm8250-stuffs/packages_resources_devicesettings" remote="git" revision="los" />
-<project path="device/custom/sepolicy" name="VoidUI-Andromeda/device_custom_sepolicy" remote="git" revision="aosp-14" />
-<project path="device/qcom/sepolicy" name="PixelExperience/device_qcom_sepolicy" remote="git" revision="fourteen" />
-<project path="device/qcom/sepolicy-legacy-um" name="PixelExperience/device_qcom_sepolicy-legacy-um" remote="git" revision="fourteen" />
-<project path="device/qcom/sepolicy_vndr/legacy-um" name="PixelExperience/device_qcom_sepolicy_vndr_legacy-um" remote="git" revision="fourteen" />
-<project path="system/libhwbinder" name="VoidUI-Andromeda/system_libhwbinder" remote="git" revision="aosp-14" clone-depth="1" />
-<project path="frameworks/native" name="sm8250-alt/android_frameworks_native" remote="git" revision="ursa" clone-depth="1" />
-<project path="frameworks/av" name="sm8250-alt/android_frameworks_av" remote="git" revision="ursa" clone-depth="1" />
-<project path="vendor/xiaomi/camera" name="nhAsif/vendor_xiaomi_camera" remote="glab" revision="aosp-14" clone-depth="1" />
-<project path="system/logging" name="PixelExperience/system_logging" remote="git" revision="fourteen" clone-depth="1" />
-<project path="system/security" name="PixelExperience/system_security" remote="git" revision="fourteen" clone-depth="1" />
-<project path="hardware/libhardware" name="PixelExperience/hardware_libhardware" remote="git" revision="fourteen" clone-depth="1" />
-<project path="development" name="PixelExperience/development" remote="git" revision="fourteen" clone-depth="1" />
+<project path="system/libhwbinder" name="Evolution-X/system_libhwbinder" remote="git" revision="u" clone-depth="1" />
+<project path="frameworks/native" name="alioth-stuffs/mat_android_frameworks_native" remote="git" revision="14.0" clone-depth="1" />
+<project path="frameworks/av" name="alioth-stuffs/mat_android_frameworks_av" remote="git" revision="14.0" clone-depth="1" />
+<project path="vendor/xiaomi/camera" name="nhAsif/vendor-xiaomi-camera-los" remote="glab" revision="aosp-14" clone-depth="1" />
 </manifest>
