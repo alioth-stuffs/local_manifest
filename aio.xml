@@ -4,10 +4,9 @@
 <remote name="glab" fetch="https://gitlab.com" />
 
 <!-- Removed projects -->
-<remove-project name="LineageOS/android_packages_resources_devicesettings" />
-<remove-project name="android_frameworks_native" />
+<remove-project name="android_packages_resources_devicesettings" />
 <remove-project name="platform/system/libhwbinder" />
-<remove-project name="android_frameworks_av" />
+<remove-project name="hardware_xiaomi" />
 
 
 <!-- Device Trees -->
@@ -19,6 +18,4 @@
 <project path="hardware/xiaomi" name="Evolution-X/hardware_xiaomi" remote="git" revision="udc" />
 <project path="packages/resources/devicesettings" name="sm8250-stuffs/packages_resources_devicesettings" remote="git" revision="los" />
 <project path="system/libhwbinder" name="Evolution-X/system_libhwbinder" remote="git" revision="u" clone-depth="1" />
-<project path="frameworks/native" name="sm8250-aosp/android_frameworks_native" remote="git" revision="ursa" clone-depth="1" />
-<project path="frameworks/av" name="sm8250-aosp/android_frameworks_av" remote="git" revision="ursa" clone-depth="1" />
 </manifest>
