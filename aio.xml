@@ -6,13 +6,14 @@
 
 <!-- Removed projects -->
 <remove-project name="packages_resources_devicesettings" />
+<remove-project name="frameworks_native" />
 
 <!-- Device Trees -->
-<project path="device/xiaomi/alioth" name="PocoF3Releases/device_xiaomi_alioth" remote="git" revision="aosp-14" clone-depth="1" />
-<project path="device/xiaomi/sm8250-common" name="PocoF3Releases/device_xiaomi_sm8250-common" remote="git" revision="aosp-14" clone-depth="1" />
+<project path="device/xiaomi/alioth" name="sm8250-aosp/device_xiaomi_alioth" remote="git" revision="aosp-14" clone-depth="1" />
+<project path="device/xiaomi/sm8250-common" name="sm8250-aosp/device_xiaomi_sm8250-common" remote="git" revision="aosp-14" clone-depth="1" />
 <project path="vendor/xiaomi/alioth" name="PocoF3Releases/vendor_xiaomi_alioth" remote="git" revision="aosp-14" clone-depth="1" />
 <project path="vendor/xiaomi/sm8250-common" name="PocoF3Releases/vendor_xiaomi_sm8250-common" remote="git" revision="aosp-14" clone-depth="1" />
 <project path="kernel/xiaomi/sm8250" name="PocoF3Releases/kernel_xiaomi_sm8250" remote="git" revision="aosp-14" clone-depth="1" />
 <project path="packages/resources/devicesettings" name="sm8250-stuffs/packages_resources_devicesettings" remote="git" revision="los" />
-<project path="vendor/xiaomi/camera" name="johnmart19/vendor_xiaomi_camera" remote="glab" revision="aosp-14" clone-depth="1" />
+<project path="frameworks/native" name="sm8250-aosp/frameworks_native" remote="git" revision="u" clone-depth="1" />
 </manifest>
