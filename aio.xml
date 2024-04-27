@@ -5,8 +5,8 @@
 
 <!-- Removed projects -->
 <remove-project name="platform/system/libhwbinder" />
-<remove-project name="LineageOS/android_packages_resources_devicesettings" />
-<remove-project name="android_frameworks_native" />
+<remove-project name="android_packages_resources_devicesettings" />
+<remove-project name="frameworks_native" />
 
 <!-- Device Trees -->
 <project path="device/xiaomi/alioth" name="los-alioth/device_xiaomi_alioth" remote="git" revision="yaap" clone-depth="1" />
