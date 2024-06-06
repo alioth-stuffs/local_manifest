@@ -14,4 +14,5 @@
 <project path="kernel/xiaomi/sm8250" name="PocoF3Releases/kernel_xiaomi_sm8250" remote="git" revision="aosp-14" clone-depth="1" />
 <project path="hardware/xiaomi" name="PocoF3Releases/hardware_xiaomi" remote="git" revision="udc" />
 <project path="packages/resources/devicesettings" name="sm8250-stuffs/packages_resources_devicesettings" remote="git" revision="los" />
+<project path="vendor/xiaomi/camera" name="johnmart19/vendor_xiaomi_camera" remote="glab" revision="aosp-14" clone-depth="1" />
 </manifest>
