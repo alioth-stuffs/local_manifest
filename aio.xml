@@ -18,5 +18,4 @@
 <project path="packages/resources/devicesettings" name="sm8250-stuffs/packages_resources_devicesettings" remote="git" revision="los" />
 <project path="system/libhwbinder" name="Evolution-X/system_libhwbinder" remote="git" revision="u" clone-depth="1" />
 <project path="frameworks/native" name="los-alioth/rising_frameworks_native" remote="git" revision="fourteen" clone-depth="1" />
-<project path="vendor/lineage-priv/keys" name="los-alioth/keys" remote="git" revision="lineage" clone-depth="1" />
 </manifest>
