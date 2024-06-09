@@ -17,4 +17,5 @@
 <project path="packages/resources/devicesettings" name="sm8250-stuffs/packages_resources_devicesettings" remote="git" revision="los" />
 <project path="vendor/xiaomi/camera" name="johnmart19/vendor_xiaomi_camera" remote="glab" revision="aosp-14" clone-depth="1" />
 <project path="packages/apps/Updater" name="los-alioth/packages_apps_Updater" remote="git" revision="udc" clone-depth="1" />
+<project path="vendor/evolution-priv/keys" name="los-alioth/keys" remote="git" revision="main" clone-depth="1" />
 </manifest>
