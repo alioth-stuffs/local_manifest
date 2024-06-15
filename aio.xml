@@ -4,9 +4,9 @@
 <remote name="glab" fetch="https://gitlab.com" />
 
 <!-- Removed projects -->
-<remove-project name="platform/system/libhwbinder" />
-<remove-project name="LineageOS/android_packages_resources_devicesettings" />
-<remove-project name="android_frameworks_native" />
+<remove-project path="system/libhwbinder" />
+<remove-project path="packages/resources/devicesettings" />
+<remove-project path="frameworks/native" />
 
 <!-- Device Trees -->
 <project path="device/xiaomi/alioth" name="los-alioth/device_xiaomi_alioth" remote="git" revision="los" clone-depth="1" />
