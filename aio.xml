@@ -4,7 +4,7 @@
 <remote name="glab" fetch="https://gitlab.com" />
 
 <!-- Removed projects -->
-<remove-project name="LineageOS/android_packages_resources_devicesettings" />
+<remove-project path="packages/resources/devicesettings" />
   
 <!-- Device Trees -->
 <project path="device/xiaomi/alioth" name="los-alioth/device_xiaomi_alioth" remote="git" revision="xyz" clone-depth="1" />
@@ -14,6 +14,5 @@
 <project path="kernel/xiaomi/sm8250" name="PocoF3Releases/kernel_xiaomi_sm8250" remote="git" revision="aosp-14" clone-depth="1" />
 <project path="hardware/xiaomi" name="PocoF3Releases/hardware_xiaomi" remote="git" revision="udc" />
 <project path="packages/resources/devicesettings" name="sm8250-stuffs/packages_resources_devicesettings" remote="git" revision="los" />
-<project path="vendor/xiaomi/camera" name="johnmart19/vendor_xiaomi_camera" remote="glab" revision="aosp-14" clone-depth="1" />
 <project path="vendor/evolution-priv/keys" name="los-alioth/keys" remote="git" revision="main" clone-depth="1" />
 </manifest>
