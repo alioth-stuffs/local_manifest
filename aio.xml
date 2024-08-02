@@ -13,6 +13,8 @@
 <remove-project path="packages/resources/devicesettings" />
 <remove-project path="frameworks/native" />
 <remove-project path="frameworks/base" />
+<remove-project path="system/memory/lmkd" />
+
 
 <!-- Device Trees -->
 <project path="device/xiaomi/alioth" name="nhAsif/device_xiaomi_alioth" remote="git" revision="aosp-14-matrix" clone-depth="1" />
@@ -24,8 +26,9 @@
 <project path="packages/resources/devicesettings" name="sm8250-stuffs/packages_resources_devicesettings" remote="git" revision="los" />
 <project path="system/libhwbinder" name="Evolution-XYZ/system_libhwbinder" remote="git" revision="udc" clone-depth="1" />
 <project path="frameworks/native" name="los-alioth/android_frameworks_native_cr" remote="git" revision="14.0" clone-depth="1" />
-<project path="frameworks/native" name="los-alioth/android_frameworks_base" remote="git" revision="14.0" clone-depth="1" />
+<project path="frameworks/base" name="los-alioth/android_frameworks_base" remote="git" revision="14.0" clone-depth="1" />
 <project path="vendor/lineage-priv/keys" name="los-alioth/keys" remote="git" revision="los" clone-depth="1" />
 <project path="vendor/gapps" name="android_vendor_gapps" remote="bit" />
 <project path="vendor/xiaomi/camera" name="NotZeetaa/vendor_xiaomi_camera" remote="glab" revision="aosp-14" clone-depth="1" />
+<project path="system/memory/lmkd" name="ProjectMatrixx/android_system_memory_lmkd" remote="git" revision="14.0" clone-depth="1" />
 </manifest>
