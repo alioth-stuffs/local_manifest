@@ -10,15 +10,15 @@
 
     <!-- Device Trees -->
     <project path="device/xiaomi/alioth"
-             name="nhAsif/device_xiaomi_alioth"
+             name="alioth-stuffs/device_xiaomi_alioth"
              remote="git"
-             revision="aosp-14-matrix"
+             revision="los"
              clone-depth="1" />
 
     <project path="device/xiaomi/sm8250-common"
-             name="nhAsif/device_xiaomi_sm8250-common"
+             name="alioth-stuffs/device_xiaomi_sm8250-common"
              remote="git"
-             revision="aosp-14"
+             revision="los"
              clone-depth="1" />
 
     <!-- Vendor Files -->
@@ -49,9 +49,9 @@
 
     <!-- Packages -->
     <project path="packages/resources/devicesettings"
-             name="sm8250-stuffs/packages_resources_devicesettings"
+             name="PocoF3Releases/packages_resources_devicesettings"
              remote="git"
-             revision="los" />
+             revision="aosp-14" />
 
     <!-- Frameworks -->
     <project path="frameworks/native"
