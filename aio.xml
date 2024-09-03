@@ -58,4 +58,6 @@
              remote="git"
              revision="los"
              clone-depth="1" />
+
+    <project path="vendor/xiaomi/camera" name="NotZeetaa/vendor_xiaomi_camera" remote="glab" revision="aosp-14" clone-depth="1" />
 </manifest>
