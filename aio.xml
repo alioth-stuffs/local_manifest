@@ -6,13 +6,12 @@
 
     <!-- Removed Projects -->
     <remove-project path="packages/resources/devicesettings" />
-    <remove-project path="frameworks/native" />
 
     <!-- Device Trees -->
     <project path="device/xiaomi/alioth"
              name="alioth-stuffs/device_xiaomi_alioth"
              remote="git"
-             revision="los"
+             revision="evo"
              clone-depth="1" />
 
     <project path="device/xiaomi/sm8250-common"
@@ -52,13 +51,6 @@
              name="PocoF3Releases/packages_resources_devicesettings"
              remote="git"
              revision="aosp-14" />
-
-    <!-- Frameworks -->
-    <project path="frameworks/native"
-             name="crdroid-fe/android_frameworks_native_new"
-             remote="git"
-             revision="14.0"
-             clone-depth="1" />
 
     <!-- Vendor Keys -->
     <project path="vendor/lineage-priv/keys"
