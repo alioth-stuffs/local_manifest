@@ -24,13 +24,13 @@
     <project path="vendor/xiaomi/alioth"
              name="PocoF3Releases/vendor_xiaomi_alioth"
              remote="git"
-             revision="staging"
+             revision="aosp-14-old"
              clone-depth="1" />
 
     <project path="vendor/xiaomi/sm8250-common"
              name="PocoF3Releases/vendor_xiaomi_sm8250-common"
              remote="git"
-             revision="staging"
+             revision="aosp-14-old"
              clone-depth="1" />
 
     <!-- Kernel -->
