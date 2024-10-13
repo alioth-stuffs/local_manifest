@@ -42,9 +42,9 @@
 
     <!-- Hardware -->
     <project path="hardware/xiaomi"
-             name="alioth-stuffs/hardware_xiaomi"
+             name="PocoF3Releases/hardware_xiaomi"
              remote="git"
-             revision="udc" />
+             revision="aosp-14" />
 
     <!-- Packages -->
     <project path="packages/resources/devicesettings"
