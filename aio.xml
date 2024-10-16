@@ -22,13 +22,13 @@
 
     <!-- Vendor Files -->
     <project path="vendor/xiaomi/alioth"
-             name="PocoF3Releases/vendor_xiaomi_alioth"
+             name="alioth-stuffs/vendor_xiaomi_alioth_new"
              remote="git"
              revision="aosp-14"
              clone-depth="1" />
 
     <project path="vendor/xiaomi/sm8250-common"
-             name="PocoF3Releases/vendor_xiaomi_sm8250-common"
+             name="alioth-stuffs/vendor_xiaomi_sm8250-common_new"
              remote="git"
              revision="aosp-14"
              clone-depth="1" />
@@ -42,7 +42,7 @@
 
     <!-- Hardware -->
     <project path="hardware/xiaomi"
-             name="PocoF3Releases/hardware_xiaomi"
+             name="alioth-stuffs/hardware_xiaomi_new"
              remote="git"
              revision="aosp-14" />
 
