@@ -11,13 +11,13 @@
     <project path="device/xiaomi/alioth"
              name="alioth-stuffs/device_xiaomi_alioth_new"
              remote="git"
-             revision="aosp-14-mat"
+             revision="aosp-14-derp"
              clone-depth="1" />
 
     <project path="device/xiaomi/sm8250-common"
              name="alioth-stuffs/device_xiaomi_sm8250-common_new"
              remote="git"
-             revision="aosp-14-mat"
+             revision="aosp-14-derp"
              clone-depth="1" />
 
     <!-- Vendor Files -->
@@ -51,13 +51,6 @@
              name="PocoF3Releases/packages_resources_devicesettings"
              remote="git"
              revision="aosp-14" />
-
-    <!-- Vendor Keys -->
-    <project path="vendor/lineage-priv/keys"
-             name="los-alioth/keys"
-             remote="git"
-             revision="los"
-             clone-depth="1" />
 
     <project path="vendor/xiaomi/camera" name="NotZeetaa/vendor_xiaomi_camera" remote="glab" revision="aosp-14" clone-depth="1" />
 </manifest>
