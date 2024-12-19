@@ -60,5 +60,4 @@
              clone-depth="1" />
 
     <project path="vendor/xiaomi/camera" name="johnmart19/vendor_xiaomi_camera" remote="glab" revision="aosp-14" clone-depth="1" />
-    <project path="vendor/gms" name="dark.phnx12/vendor-gms" remote="glab" clone-depth="1" revision="voyager" />
 </manifest>
