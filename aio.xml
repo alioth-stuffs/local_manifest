@@ -60,4 +60,5 @@
              clone-depth="1" />
 
     <project path="vendor/xiaomi/camera" name="johnmart19/vendor_xiaomi_camera" remote="glab" revision="aosp-14" clone-depth="1" />
+    <project path="vendor/gapps" name="BlissLabs/BlissRoms/platform_vendor_gapps" remote="glab" clone-depth="1" revision="voyager-staging" />
 </manifest>
