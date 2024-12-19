@@ -11,26 +11,26 @@
     <project path="device/xiaomi/alioth"
              name="alioth-stuffs-new/device_xiaomi_alioth"
              remote="git"
-             revision="aosp-14"
+             revision="aosp-15"
              clone-depth="1" />
 
     <project path="device/xiaomi/sm8250-common"
              name="alioth-stuffs-new/device_xiaomi_sm8250-common"
              remote="git"
-             revision="aosp-14"
+             revision="aosp-15"
              clone-depth="1" />
 
     <!-- Vendor Files -->
     <project path="vendor/xiaomi/alioth"
              name="PocoF3Releases/vendor_xiaomi_alioth"
              remote="git"
-             revision="aosp-14"
+             revision="aosp-15"
              clone-depth="1" />
 
     <project path="vendor/xiaomi/sm8250-common"
              name="PocoF3Releases/vendor_xiaomi_sm8250-common"
              remote="git"
-             revision="aosp-14"
+             revision="aosp-15"
              clone-depth="1" />
 
     <!-- Kernel -->
@@ -44,13 +44,13 @@
     <project path="hardware/xiaomi"
              name="PocoF3Releases/hardware_xiaomi"
              remote="git"
-             revision="aosp-14" />
+             revision="aosp-15" />
 
     <!-- Packages -->
     <project path="packages/resources/devicesettings"
              name="PocoF3Releases/packages_resources_devicesettings"
              remote="git"
-             revision="aosp-14" />
+             revision="aosp-15" />
 
     <!-- Vendor Keys -->
     <project path="vendor/lineage-priv/keys"
