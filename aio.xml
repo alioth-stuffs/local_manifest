@@ -29,7 +29,7 @@
              clone-depth="1" />
 
     <project path="vendor/xiaomi/sm8250-common"
-             name="PocoF3Releases/vendor_xiaomi_sm8250-common"
+             name="alioth-stuffs-new/vendor_xiaomi_sm8250-common"
              remote="git"
              revision="aosp-15"
              clone-depth="1" />
