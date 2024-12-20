@@ -12,7 +12,7 @@
     <project path="device/xiaomi/alioth"
              name="alioth-stuffs-new/device_xiaomi_alioth"
              remote="git"
-             revision="aosp-15"
+             revision="rs"
              clone-depth="1" />
 
     <project path="device/xiaomi/sm8250-common"
@@ -54,10 +54,10 @@
              revision="aosp-15" />
 
     <!-- Vendor Keys -->
-    <project path="vendor/lineage-priv/keys"
+    <project path="vendor/asif-priv/keys"
              name="alioth-stuffs-new/Keys"
              remote="git"
-             revision="los"
+             revision="rs"
              clone-depth="1" />
 
     <project path="system/libhwbinder"
