@@ -55,7 +55,7 @@
 
     <!-- Vendor Keys -->
     <project path="vendor/lineage-priv/keys"
-             name="los-alioth/keys"
+             name="alioth-stuffs-new/Keys"
              remote="git"
              revision="los"
              clone-depth="1" />
