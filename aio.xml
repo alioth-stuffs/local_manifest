@@ -54,10 +54,10 @@
              revision="aosp-15" />
 
     <!-- Vendor Keys -->
-    <project path="vendor/asif-priv/keys"
+    <project path="vendor/lineage-priv/keys"
              name="alioth-stuffs-new/Keys"
              remote="git"
-             revision="rs"
+             revision="los"
              clone-depth="1" />
 
     <project path="system/libhwbinder"
