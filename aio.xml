@@ -6,7 +6,6 @@
 
     <!-- Removed Projects -->
     <remove-project path="packages/resources/devicesettings" />
-    <remove-project path="system/libhwbinder" />
 
     <!-- Device Trees -->
     <project path="device/xiaomi/alioth"
@@ -16,9 +15,9 @@
              clone-depth="1" />
 
     <project path="device/xiaomi/sm8250-common"
-             name="alioth-stuffs-new/device_xiaomi_sm8250-common-new"
+             name="alioth-stuffs-new/device_xiaomi_sm8250-common-n"
              remote="git"
-             revision="rising"
+             revision="aosp-15"
              clone-depth="1" />
 
     <!-- Vendor Files -->
@@ -29,7 +28,7 @@
              clone-depth="1" />
 
     <project path="vendor/xiaomi/sm8250-common"
-             name="alioth-stuffs-new/vendor_xiaomi_sm8250-common"
+             name="PocoF3Releases/vendor_xiaomi_sm8250-common"
              remote="git"
              revision="aosp-15"
              clone-depth="1" />
@@ -58,12 +57,6 @@
              name="alioth-stuffs-new/Keys"
              remote="git"
              revision="los"
-             clone-depth="1" />
-
-    <project path="system/libhwbinder"
-             name="Evolution-X/system_libhwbinder"
-             remote="git"
-             revision="vic"
              clone-depth="1" />
 
     <project path="vendor/xiaomi/camera" name="johnmart19/vendor_xiaomi_camera" remote="glab" revision="aosp-14" clone-depth="1" />
