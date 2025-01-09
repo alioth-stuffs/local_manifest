@@ -6,6 +6,7 @@
 
     <!-- Removed Projects -->
     <remove-project path="packages/resources/devicesettings" />
+    <remove-project path="system/libhwbinder" />
 
     <!-- Device Trees -->
     <project path="device/xiaomi/alioth"
@@ -57,6 +58,12 @@
              name="alioth-stuffs-new/Keys"
              remote="git"
              revision="los"
+             clone-depth="1" />
+
+    <project path="system/libhwbinder"
+             name="Evolution-X/system_libhwbinder"
+             remote="git"
+             revision="vic"
              clone-depth="1" />
 
     <project path="vendor/xiaomi/camera" name="johnmart19/vendor_xiaomi_camera" remote="glab" revision="aosp-14" clone-depth="1" />
