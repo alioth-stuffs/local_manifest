@@ -36,9 +36,9 @@
 
     <!-- Kernel -->
     <project path="kernel/xiaomi/sm8250"
-             name="PocoF3Releases/kernel_xiaomi_sm8250"
+             name="alioth-stuffs-new/kernel_xiaomi_sm8250-103"
              remote="git"
-             revision="aosp-15"
+             revision="nolto"
              clone-depth="1" />
 
     <!-- Hardware -->
