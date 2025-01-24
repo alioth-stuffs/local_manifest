@@ -44,7 +44,7 @@
     <project path="hardware/xiaomi"
              name="PocoF3Releases/hardware_xiaomi"
              remote="git"
-             revision="aosp-15" />
+             revision="aosp-14" />
 
     <!-- Packages -->
     <project path="packages/resources/devicesettings"
