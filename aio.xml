@@ -37,7 +37,7 @@
     <project path="kernel/xiaomi/sm8250"
              name="PocoF3Releases/kernel_xiaomi_sm8250"
              remote="git"
-             revision="aosp-14"
+             revision="aosp-15"
              clone-depth="1" />
 
     <!-- Hardware -->
