@@ -6,8 +6,6 @@
 
     <!-- Removed Projects -->
     <remove-project path="packages/resources/devicesettings" />
-    <remove-project path="frameworks/base" />
-    <remove-project path="packages/apps/Settings" />
 
     <!-- Device Trees -->
     <project path="device/xiaomi/alioth"
@@ -53,16 +51,6 @@
              name="PocoF3Releases/packages_resources_devicesettings"
              remote="git"
              revision="aosp-14" />
-
-    <project path="packages/apps/Settings"
-             name="alioth-stuffs-new/android_packages_apps_Settings"
-             remote="git"
-             revision="14.0" />
-
-    <project path="frameworks/base"
-             name="levi3609/android_frameworks_base"
-             remote="git"
-             revision="14.0" />
 
     <!-- Vendor Keys -->
     <project path="vendor/lineage-priv/keys"
