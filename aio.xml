@@ -6,7 +6,6 @@
 
     <!-- Removed Projects -->
     <remove-project path="packages/resources/devicesettings" />
-    <remove-project path="system/libhwbinder" />
 
     <!-- Device Trees -->
     <project path="device/xiaomi/alioth"
