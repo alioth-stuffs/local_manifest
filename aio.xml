@@ -9,48 +9,48 @@
 
     <!-- Device Trees -->
     <project path="device/xiaomi/alioth"
-             name="alioth-stuffs-new/device_xiaomi_alioth_104"
+             name="alioth-stuffs-new/device_xiaomi_alioth_106"
              remote="git"
-             revision="aosp-15"
+             revision="aosp-16"
              clone-depth="1" />
 
     <project path="device/xiaomi/sm8250-common"
-             name="alioth-stuffs-new/device_xiaomi_sm8250-common_105"
+             name="alioth-stuffs-new/device_xiaomi_sm8250-common_106"
              remote="git"
-             revision="aosp-15"
+             revision="aosp-16"
              clone-depth="1" />
 
     <!-- Vendor Files -->
     <project path="vendor/xiaomi/alioth"
              name="PocoF3Releases/vendor_xiaomi_alioth"
              remote="git"
-             revision="aosp-15"
+             revision="aosp-16"
              clone-depth="1" />
 
     <project path="vendor/xiaomi/sm8250-common"
              name="PocoF3Releases/vendor_xiaomi_sm8250-common"
              remote="git"
-             revision="aosp-15"
+             revision="aosp-16"
              clone-depth="1" />
 
     <!-- Kernel -->
     <project path="kernel/xiaomi/sm8250"
              name="PocoF3Releases/kernel_xiaomi_sm8250"
              remote="git"
-             revision="aosp-15"
+             revision="aosp-16"
              clone-depth="1" />
 
     <!-- Hardware -->
     <project path="hardware/xiaomi"
              name="PocoF3Releases/hardware_xiaomi"
              remote="git"
-             revision="aosp-15-qpr2" />
+             revision="aosp-16" />
 
     <!-- Packages -->
     <project path="packages/resources/devicesettings"
              name="PocoF3Releases/packages_resources_devicesettings"
              remote="git"
-             revision="aosp-15" />
+             revision="aosp-16" />
 
     <!-- Vendor Keys -->
     <project path="vendor/lineage-priv/keys"
@@ -59,7 +59,7 @@
              revision="los"
              clone-depth="1" />
     
-    <project path="vendor/xiaomi/camera" name="johnmart19/vendor_xiaomi_camera" remote="glab" revision="aosp-15" clone-depth="1" />
-    <project path="device/xiaomi/camera" name="PocoF3Releases/device_xiaomi_camera" remote="git" revision="aosp-15" clone-depth="1" />
+    <project path="vendor/xiaomi/camera" name="johnmart19/vendor_xiaomi_camera" remote="glab" revision="aosp-16" clone-depth="1" />
+    <project path="device/xiaomi/camera" name="PocoF3Releases/device_xiaomi_camera" remote="git" revision="aosp-16" clone-depth="1" />
 
 </manifest>
