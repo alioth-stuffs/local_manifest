@@ -53,10 +53,10 @@
              revision="aosp-16" />
 
     <!-- Vendor Keys -->
-    <project path="vendor/lineage-priv/keys"
+    <project path="vendor/lunaris-priv/keys"
              name="alioth-stuffs-new/Keys"
              remote="git"
-             revision="los"
+             revision="main"
              clone-depth="1" />
     
     <project path="vendor/xiaomi/camera" name="johnmart19/vendor_xiaomi_camera" remote="glab" revision="aosp-16" clone-depth="1" />
