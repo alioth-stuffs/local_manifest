@@ -56,7 +56,7 @@
     <project path="vendor/evolution-priv/keys"
              name="alioth-stuffs-new/Keys"
              remote="git"
-             revision="main"
+             revision="evo"
              clone-depth="1" />
     
     <project path="vendor/xiaomi/camera" name="johnmart19/vendor_xiaomi_camera" remote="glab" revision="aosp-16" clone-depth="1" />
