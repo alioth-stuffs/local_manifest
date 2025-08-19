@@ -61,7 +61,7 @@
              clone-depth="1" />
 
     <project path="packages/apps/Settings"
-             name="alioth-stuffs-new/packages_apps_Settings"
+             name="alioth-stuffs-new/packages_apps_Settings_2"
              remote="git"
              revision="16"
              clone-depth="1" />
