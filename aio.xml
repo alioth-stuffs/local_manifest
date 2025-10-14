@@ -11,13 +11,13 @@
     <project path="device/xiaomi/alioth"
              name="alioth-stuffs-new/device_xiaomi_alioth_108"
              remote="git"
-             revision="aosp-16"
+             revision="luna"
              clone-depth="1" />
 
     <project path="device/xiaomi/sm8250-common"
              name="alioth-stuffs-new/device_xiaomi_sm8250-common_109"
              remote="git"
-             revision="aosp-16"
+             revision="luna"
              clone-depth="1" />
 
     <!-- Vendor Files -->
@@ -51,7 +51,7 @@
              name="PocoF3Releases/packages_resources_devicesettings"
              remote="git"
              revision="aosp-16" />
-
+    
     <project path="vendor/qcom/wfd"
              name="PocoF3Releases/vendor_qcom_wfd"
              remote="git"
