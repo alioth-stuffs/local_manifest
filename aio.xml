@@ -9,15 +9,15 @@
 
     <!-- Device Trees -->
     <project path="device/xiaomi/alioth"
-             name="alioth-stuffs-new/device_xiaomi_alioth_108"
+             name="PocoF3Releases/device_xiaomi_alioth"
              remote="git"
-             revision="luna"
+             revision="aosp-16"
              clone-depth="1" />
 
     <project path="device/xiaomi/sm8250-common"
-             name="alioth-stuffs-new/device_xiaomi_sm8250-common_109"
+             name="PocoF3Releases/device_xiaomi_sm8250-common"
              remote="git"
-             revision="luna"
+             revision="aosp-16"
              clone-depth="1" />
 
     <!-- Vendor Files -->
@@ -51,16 +51,6 @@
              name="PocoF3Releases/packages_resources_devicesettings"
              remote="git"
              revision="aosp-16" />
-    
-    <project path="vendor/qcom/wfd"
-             name="PocoF3Releases/vendor_qcom_wfd"
-             remote="git"
-             revision="bka" />
-
-    <project path="device/qcom/wfd"
-             name="PocoF3Releases/device_qcom_wfd"
-             remote="git"
-             revision="bka" />
 
     <!-- Vendor Keys -->
     <project path="vendor/evolution-priv/keys"
