@@ -52,6 +52,16 @@
              remote="git"
              revision="aosp-16" />
 
+    <project path="vendor/qcom/wfd"
+             name="PocoF3Releases/vendor_qcom_wfd"
+             remote="git"
+             revision="bka" />
+
+    <project path="device/qcom/wfd"
+             name="PocoF3Releases/device_qcom_wfd"
+             remote="git"
+             revision="bka" />
+
     <!-- Vendor Keys -->
     <project path="vendor/evolution-priv/keys"
              name="alioth-stuffs-new/Keys"
