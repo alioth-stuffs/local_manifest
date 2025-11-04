@@ -9,15 +9,15 @@
 
     <!-- Device Trees -->
     <project path="device/xiaomi/alioth"
-             name="alioth-stuffs-new/device_xiaomi_alioth_108"
+             name="PocoF3Releases/device_xiaomi_alioth"
              remote="git"
-             revision="luna"
+             revision="aosp-16"
              clone-depth="1" />
 
     <project path="device/xiaomi/sm8250-common"
-             name="alioth-stuffs-new/device_xiaomi_sm8250-common_110"
+             name="PocoF3Releases/device_xiaomi_sm8250-common"
              remote="git"
-             revision="luna"
+             revision="aosp-16"
              clone-depth="1" />
 
     <!-- Vendor Files -->
