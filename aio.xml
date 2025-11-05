@@ -6,6 +6,7 @@
 
     <!-- Removed Projects -->
     <remove-project path="packages/resources/devicesettings" />
+    <remove-project path="hardware/xiaomi" />
 
     <!-- Device Trees -->
     <project path="device/xiaomi/alioth"
