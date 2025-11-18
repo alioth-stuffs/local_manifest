@@ -62,6 +62,11 @@
              remote="git"
              revision="bka" />
 
+    <project path="packages/apps/GameBar"
+             name="https://github.com/zen0s-aospforge/packages_apps_GameBar"
+             remote="git"
+             revision="main" />
+    
     <!-- Vendor Keys -->
     <project path="vendor/lunaris-priv/keys"
              name="alioth-stuffs-new/Keys"
