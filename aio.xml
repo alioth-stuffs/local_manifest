@@ -63,7 +63,7 @@
              revision="bka" />
 
     <project path="packages/apps/GameBar"
-             name="https://github.com/zen0s-aospforge/packages_apps_GameBar"
+             name="zen0s-aospforge/packages_apps_GameBar"
              remote="git"
              revision="main" />
     
