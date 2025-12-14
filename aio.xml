@@ -8,7 +8,7 @@
     <!-- Device Trees -->
     <project
         path="device/xiaomi/marble"
-        name="Marble-Development-SM8450/android_device_xiaomi_marble"
+        name="Marble-trees/android_device_xiaomi_marble"
         remote="marble-gh"
         clone-depth="1" />
 
