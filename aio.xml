@@ -14,7 +14,7 @@
 
     <project
         path="device/xiaomi/sm8450-common"
-        name="Marble-Development-SM8450/android_device_xiaomi_sm8450-common"
+        name="Marble-trees/android_device_xiaomi_sm8450-common"
         remote="marble-gh"
         clone-depth="1" />
 
@@ -27,13 +27,13 @@
     <!-- Vendor -->
     <project
         path="vendor/xiaomi/marble"
-        name="Marble-Development-SM8450/proprietary_vendor_xiaomi_marble"
+        name="Marble-trees/proprietary_vendor_xiaomi_marble"
         remote="marble-gh"
         clone-depth="1" />
 
     <project
         path="vendor/xiaomi/sm8450-common"
-        name="Marble-Development-SM8450/proprietary_vendor_xiaomi_sm8450-common"
+        name="Marble-trees/proprietary_vendor_xiaomi_sm8450-common"
         remote="marble-gh"
         clone-depth="1" />
 
@@ -71,7 +71,7 @@
 
     <project
         path="hardware/dolby"
-        name="Marble-Development-SM8450/android_hardware_dolby"
+        name="Marble-trees/android_hardware_dolby"
         remote="marble-gh"
         clone-depth="1" />
 
