@@ -17,7 +17,7 @@
         path="device/xiaomi/sm8450-common"
         name="Marble-trees/android_device_xiaomi_sm8450-common"
         remote="marble-gh"
-        revision="lineage-23.0"
+        revision="axion"
         clone-depth="1" />
 
     <project
