@@ -10,7 +10,7 @@
         path="device/xiaomi/marble"
         name="Marble-trees/android_device_xiaomi_marble"
         remote="marble-gh"
-        revision="lineage-23.0"
+        revision="evo"
         clone-depth="1" />
 
     <project
