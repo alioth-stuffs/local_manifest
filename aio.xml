@@ -5,6 +5,7 @@
     <remote name="marble-gh" fetch="https://github.com" />
     <remote name="marble-gl" fetch="https://gitlab.com" />
 
+    <remove-project path="frameworks/native" />
     <!-- Device Trees -->
     <project
         path="device/xiaomi/marble"
@@ -91,5 +92,12 @@
         name="Marble-trees/packages_apps_GameBar"
         remote="marble-gh"
         revision="main" />
+
+    <project
+        path="frameworks/native"
+        name="Marble-trees/android_frameworks_native"
+        remote="marble-gh"
+        revision="lineage-23.0"
+        clone-depth="1" />
 
 </manifest>
