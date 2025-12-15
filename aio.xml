@@ -86,10 +86,4 @@
         revision="16.0"
         clone-depth="1" />
 
-    <project
-        path="packages/apps/GameBar"
-        name="Marble-trees/packages_apps_GameBar"
-        remote="marble-gh"
-        revision="main" />
-
 </manifest>
