@@ -83,7 +83,7 @@
         path="hardware/dolby"
         name="Marble-trees/android_hardware_dolby"
         remote="marble-gh"
-        revision="lineage-23.0"
+        revision="16.0"
         clone-depth="1" />
 
     <project
