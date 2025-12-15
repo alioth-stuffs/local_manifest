@@ -24,7 +24,7 @@
         path="device/xiaomi/miuicamera-marble"
         name="Chaitanyakm/device_xiaomi_miuicamera-marble"
         remote="marble-gh"
-        revision="lineage-23.0"
+        revision="16.0"
         clone-depth="1" />
 
     <!-- Vendor -->
