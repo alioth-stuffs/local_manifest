@@ -86,4 +86,11 @@
         revision="16.0"
         clone-depth="1" />
 
+        <!-- Vendor Keys -->
+    <project path="vendor/lineage-priv/keys"
+             name="alioth-stuffs-new/Keys"
+             remote="git"
+             revision="losext"
+             clone-depth="1" />
+
 </manifest>
