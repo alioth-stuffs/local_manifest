@@ -91,7 +91,7 @@
         <!-- Vendor Keys -->
     <project path="vendor/lineage-priv/keys"
              name="alioth-stuffs-new/Keys"
-             remote="git"
+             remote="marble-gh"
              revision="losext"
              clone-depth="1" />
 
