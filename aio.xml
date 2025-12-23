@@ -87,17 +87,11 @@
         revision="16.0"
         clone-depth="1" />
 
-    <project
-        path="packages/apps/GameBar"
-        name="Marble-trees/packages_apps_GameBar"
-        remote="marble-gh"
-        revision="main" />
-
-    <project
-        path="frameworks/native"
-        name="Marble-trees/android_frameworks_native"
-        remote="marble-gh"
-        revision="lineage-23.0"
-        clone-depth="1" />
+    <!-- Vendor Keys -->
+    <project path="vendor/lineage-priv/keys"
+             name="Marble-trees/keys"
+             remote="git"
+             revision="main"
+             clone-depth="1" />
 
 </manifest>
