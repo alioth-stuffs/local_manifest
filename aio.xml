@@ -90,7 +90,7 @@
     <!-- Vendor Keys -->
     <project path="vendor/lineage-priv/keys"
              name="Marble-trees/keys"
-             remote="git"
+             remote="marble-gh"
              revision="main"
              clone-depth="1" />
 
