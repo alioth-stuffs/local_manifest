@@ -85,6 +85,12 @@
         remote="marble-gh"
         revision="main" />
 
+    <!-- Vendor Keys -->
+    <project path="vendor/evolution-priv/keys"
+             name="alioth-stuffs-new/Keys"
+             remote="marble-gh"
+             revision="evnew"
+             clone-depth="1" />
 
     <project
         path="hardware/dolby"
