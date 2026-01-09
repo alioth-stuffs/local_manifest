@@ -84,6 +84,13 @@
         name="Marble-trees/packages_apps_GameBar"
         remote="marble-gh"
         revision="main" />
+
+    <!-- Vendor Keys -->
+    <project path="vendor/lunaris-priv/keys"
+             name="alioth-stuffs-new/Keys"
+             remote="git"
+             revision="main"
+             clone-depth="1" />
     
     <project
         path="hardware/dolby"
